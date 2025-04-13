@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&family=Rubik+Mono+One&display=swap');
+body{
+    margin-top: 70px;
+    padding: 0;
+    background-image: url(FundoBaleia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Lexend Exa", sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.titulo_Login h1{
+    margin-bottom: 20px;
+    color: rgb(2, 37, 70);
+    text-align:center;
+}
+
+.titulo_Login{
+    background-color:rgba(129, 179, 199, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 60px;
+    border-radius: 80px;
+    box-shadow: 0 15px 10px rgb(2, 24, 56);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: baseline;
+    /*text-align alinha apenas um unico texto dentro da div, e o itens align alinha todos os itens presentes dentro da div*/
+}
+
+.informar_dados{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+input::placeholder{
+    color: rgb(96, 139, 179);
+    opacity: 0.5;
+}
+
+.informar_dados label{
+    margin-bottom: 10px ;
+    color: rgb(3, 21, 61);
+}
+
+.informar_dados input{
+    background-color: rgb(3, 58, 110);
+    color: rgb(88, 156, 201);
+    padding: 6px;
+    border: 0.3px solid rgb(1, 32, 53);
+    border-radius: 10px;
+}
+
+.check_logado{
+    color: rgb(1, 27, 48);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.check_logado input{
+ margin-right: 10px;
+}
+
+button{
+    font-family: "Lexend Exa", sans-serif;
+    color: rgb(88, 156, 201);
+    padding: 8px;
+    border: 1px solid rgb(4, 26, 66);
+    border-radius: 100px;
+    background-color: rgb(3, 58, 110);
+    font-weight: bold;
+    cursor:pointer;
+    transition: background 0.3s ease;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+button:hover{
+    color: rgb(172, 215, 233);
+    background: rgb(1, 17, 59);
+}
+
+.confirmacao_login p{
+    color: rgb(4, 4, 65);
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+.confirmacao_login a{
+    color: rgb(9, 9, 131);
+    text-decoration: none;
+}
